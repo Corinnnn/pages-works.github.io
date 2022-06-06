@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="img/animal-paw-print.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>嘟比寵物用品店</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <style>
+        body {
+            color: midnightblue;
+            text-align: center;
+        }
+
+        #header h2,
+        h4 {
+            display: inline-block;
+        }
+
+        #header h2 {
+            padding: 15px;
+        }
+
+        #header a {
+            color: midnightblue;
+        }
+
+        #search,
+        cart {
+            padding: 15px;
+        }
+
+        #nav ul {
+            list-style-type: none;
+            margin: 0;
+            text-align: center;
+        }
+
+        #nav li {
+            display: inline-block;
+            padding-right: 2px;
+            padding-left: 3px;
+        }
+
+        #nav a {
+            font-size: 20px;
+            text-decoration: none;
+            color: midnightblue;
+            width: 100px;
+            display: inline-block;
+            text-align: center;
+        }
+
+        #nav {
+            margin-bottom: 25px;
+        }
+
+
+        #footer {
+            color: white;
+            height: 100px;
+            background-color: midnightblue;
+            text-align: center;
+        }
+
+        #footer p {
+            display: inline-block;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+
+        .ha {
+            width: 100%;
+            display: inline-block;
+            margin: 10px 5px;
+            box-shadow: 2px 2px 5px;
+        }
+
+        @media screen and (min-width:768px) and (max-width:1023px) {
+            .ha {
+                width: 45%;
+            }
+        }
+
+        @media screen and (min-width:1023px) {
+            .ha {
+                width: 30%;
+            }
+        }
+
+        .ha div {
+            padding: 10px 5px;
+        }
+
+        .ha img {
+            width: 100%;
+
+        }
+
+        .ha:hover {
+            opacity: 0.8;
+        }
+
+        #top {
+            color: midnightblue;
+            position: fixed;
+            right: 65px;
+            bottom: 105px;
+        }
+
+        #nav h4 {
+            color: midnightblue;
+        }
+
+        #more a {
+            text-decoration: underline;
+            color: midnightblue;
+        }
+
+        #cart:hover {
+            color: #ffd629;
+        }
+
+        #search:hover {
+            color: #ffd629;
+        }
+
+        #top:hover {
+            color: #ffd629;
+        }
+
+        .container p {
+            padding-top: 26px;
+        }
+        @media screen and (min-width:768px){
+            .container p{
+                padding-top: 0px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="header">
+        <a href="final-2.html"><img id="dooby" src="img/17.png" alt="嘟比寵物用品店" width="150px" height="120px"></a>
+        <br><br>
+        <h2>嘟比寵物用品店</h2>
+        <h4><a href=""><i id="search" class="fas fa-search"></i></a></h4>
+        <h4><a href=""><i id="cart" class="fas fa-shopping-cart"></i></a></h4>
+    </div>
+    <div id="nav">
+        <ul>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    所有商品
+                </a>
+                <div id="menu" class="dropdown-menu">
+                    <a class="dropdown-item" href="dog.html">狗</a>
+                    <a class="dropdown-item" href="cat.html">貓</a>
+                    <a class="dropdown-item" href="mouse.html">鼠</a>
+                    <a class="dropdown-item" href="rabbit.html">兔</a>
+                </div>
+            </li>
+
+            <li><a href="">最新消息</a></li>
+            <li><a href="">常見問題</a></li>
+            <li><a href="">會員專區</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="ha">
+            <img src="dog/120.jpg" alt="夏日必備涼墊">
+            <p>夏日必備涼墊</p>
+            <div>$120</div>
+        </div>
+        <div class="ha">
+            <img src="dog/1360.jpg" alt="舒適背帶">
+            <p>舒適背帶</p>
+            <div>$1360</div>
+        </div>
+        <div class="ha">
+            <img src="dog/2470.jpg" alt="低敏飼料">
+            <p>低敏飼料</p>
+            <div>$2470</div>
+        </div>
+        <div class="ha">
+            <img src="mouse/120.jpg" alt="倉鼠飼料400g">
+            <p>倉鼠飼料400g</p>
+            <div>$120</div>
+        </div>
+        <div class="ha">
+            <img src="rabbit/108.jpg" alt="元氣提摩西兔子牧草">
+            <div>元氣提摩西兔子牧草</div>
+            <div>$108</div>
+        </div>
+        <div class="ha">
+            <img src="rabbit/125.jpg" alt="胡蘿蔔造型兔子磨牙棒">
+            <div>胡蘿蔔造型兔子磨牙棒</div>
+            <div>$125</div>
+        </div>
+        <div class="ha">
+            <img src="rabbit/219.jpg" alt="兔用飼料碗">
+            <p>兔用飼料碗</p>
+            <div>$219</div>
+        </div>
+        <div class="ha">
+            <img src="cat/1152.jpg" alt="編織耐磨貓抓板">
+            <p>編織耐磨貓抓板</p>
+            <div>$1152</div>
+        </div>
+        <div class="ha">
+            <img src="cat/45.jpg" alt="薄荷球">
+            <p>薄荷球</p>
+            <div>$45</div>
+        </div>
+        <div class="ha">
+            <img src="cat/95.jpg" alt="薄荷草-30kg ">
+            <p>薄荷草-30kg </p>
+            <div>$95</div>
+        </div>
+        <div class="ha">
+            <img src="cat/brush.jpg" alt="蹭毛拱門按摩梳">
+            <p>蹭毛拱門按摩梳</p>
+            <div>$199</div>
+        </div>
+        <div class="ha">
+            <img src="mouse/99.jpg" alt="壓克力自動餵食器">
+            <div>壓克力自動餵食器</div>
+            <div>$99</div>
+        </div>
+        <div class="ha">
+            <img src="mouse/180.jpg" alt="草莓小饅頭零食">
+            <p>草莓小饅頭零食</p>
+            <div>$180</div>
+        </div>
+
+        <div class="ha">
+            <img src="dog/29.jpg" alt="雞肉罐頭">
+            <p>雞肉罐頭</p>
+            <div>$29</div>
+        </div>
+        <div class="ha">
+            <img src="mouse/44.jpg" alt="火山磨牙鈣石">
+            <p>火山磨牙鈣石</p>
+            <div>$44</div>
+        </div>
+        <div id="more"><a href="">更多商品</a></div>
+
+    </div>
+
+    <h1><a href="#"><i id="top" class="fas fa-arrow-circle-up"></i></a></h1>
+
+    <div id="footer">
+        <p>關於我們</p>
+        <p>聯絡我們</p>
+        <br>
+        CopyRight&copy;嘟比寵物用品店 2019
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body></html>
